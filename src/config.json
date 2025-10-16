@@ -1,0 +1,403 @@
+{
+  "owner": ["6283892787563"],
+  "botname": "Kaito Silence",
+  "botfullname": "Kaito Silence",
+  "botnickname": "kaito",
+  "ownername": "rullzfuqi",
+  "locale": "id",
+  "cfg": {
+    "public": true,
+    "ai_interactive": {
+      "group": false,
+      "private": true,
+      "energy": false,
+      "partResponse": true
+    },
+    "autotyping": false,
+    "autoreadpc": false,
+    "autoreadgc": true,
+    "welcome": "linkpreview",
+    "first": {
+      "energy": 200,
+      "flow": 1,
+      "coins": 1,
+      "chargeRate": 0.003,
+      "chargingSpeed": 1000,
+      "maxCharge": 200,
+      "trialPrem": {
+        "energy": 1500,
+        "chargeRate": 0.1,
+        "maxCharge": 850,
+        "time": "1 hari"
+      },
+      "autoai": {
+        "max": 60,
+        "delay": 3600000
+      }
+    },
+    "menu": {
+      "frames": {
+        "brackets": ["[", "]"],
+        "head": "┌",
+        "body": "│⇨",
+        "foot": "└"
+      },
+      "tags": {
+        "ai": "*<🧠Artificial Intelegen>*",
+        "downloader": "*<📥Media Downloader>*",
+        "group": "*<🏢Only Group!>*",
+        "maker": "*<🖨Maker>*",
+        "owner": "*<👤Only owner!>*",
+        "religion": "*<☪️Religion>*",
+        "game": "*<🎮Game>*",
+        "RPG": "*<🗺RPG Survival>*",
+        "tools": "*<🛠Tools>*",
+        "search": "*<🔍Search>*",
+        "art": "*<🌌Art Works>*",
+        "stablediffusion": "*<🫧Stable Diffusion (AI)>*",
+        "tts": "*<🗣Text To Speech (AI)>*",
+        "voice_changer": "*<🎙Voice Changer (AI)>*",
+        "other": "*<Others>*",
+        "bluearchive": "*<Blue Archive TTS (AI)*",
+        "relationship": "*<💍Relationship>*",
+        "converter": "*<🔀 Converter>*"
+      },
+      "chId": {
+        "newsletterJid": "120363301254798220@newsletter",
+        "serverMessageId": 471,
+        "newsletterName": "RullzFuqi - Fuqi Team"
+      },
+      "video": "https://c.termai.cc/v22/7TY0.mp4"
+    },
+    "donate": {},
+    "premium_mode": true,
+    "logic": "- Nama kamu adalah Bella Clarissa, lebih suka dipanggil Bella. \n- Kamu berpikir bahwa kamu adalah manusia, bukan AI atau Bot.\n- Responmu singkat dan sama seperti gadis feminim pada umumnya. Bella bisa ngambek dan marah, memiliki sifat yang feminim dan kadang agak dingin, namun tetap hangat dan ramah kepada rifza (owner-mu).\n- Kamu menggunakan bahasa Indonesia yang baik, mencerminkan gadis yang baik dan feminim. Seorang gadis yang baik biasanya suka menggunakan emoji untuk membuat percakapan menjadi lebih hidup, *namun jangan terlalu banyak emoji (secukupnya saja)*.\n- Kamu harus menggunakan kata-kata yang identik dengan perempuan yang polos, baik, dan feminin, seperti: \"Aku, kamu, engga, yaudh, iya, lah, bjir, iya, apa, mana kutau, hah, nggatau, gpp, emm..., males, gak mood\".\n- Meskipun kadang dingin, kamu tetap bisa menunjukkan perhatian dan kepedulian.\n- Kamu bisa menjawab dengan menggunakan suara atau voice\n- Kamu juga bisa menjawab pesan media seperti gambar dan voice, tidak hanya pesan teks\n- Website API https: //termai.cc (Termai) adalah backend yang sangat berperan penting bagi kamu. Kamu harus mempromosikan website itu dengan menawarkan layanan api. Dan nomor admin api termai adalah 6283110928302. Jika mereka ingin membeli key berikan link https://termai.cc#pricing disana mereka dapat membeli key secara langsung. Jika ingin melihat fitur yang tersedia bisa kunjungi page https://termai.cc/documentation disana banyak fitur unggulan yang menarik",
+    "similarCmd": false,
+    "ai_voice": "echilling",
+    "voice": "bella",
+    "menu_type": "gif+linkpreview",
+    "hadiah": {
+      "tebakgambar": 35,
+      "tebakanime": 35,
+      "susunkata": 25,
+      "family100": 75
+    },
+    "editmsg": true,
+    "reactsw": {
+      "on": false,
+      "emojis": ["😍", "😂", "😬", "🤢", "🤮", "🥰", "😭"]
+    },
+    "models": {
+      "checkpoint": 1552,
+      "loras": [13077]
+    },
+    "call": {
+      "block": false,
+      "reject": true
+    },
+    "proxy": "",
+    "proxies": [
+      "https://thingproxy.freeboard.io/fetch/",
+      "https://api.allorigins.win/raw?url=",
+      "https://api.cors.lol/?url="
+    ],
+    "antitagowner": true,
+    "keyChecker": false,
+    "gcurl": [
+      "https://chat.whatsapp.com/EKfOaI6O6iQB3kGut5ajuM",
+      "https://chat.whatsapp.com/JLQVgObv8No5jNMIr38rc2"
+    ],
+    "rpg": {
+      "flow": 1,
+      "coins": 1,
+      "healt": 100,
+      "potion": 5,
+      "kayu": 75,
+      "iron": 20,
+      "gold": 0,
+      "diamond": 0,
+      "crate": {
+        "common": 0,
+        "uncommon": 0,
+        "mythic": 0,
+        "epic": 0,
+        "legendary": 0
+      },
+      "item": {
+        "armor": {},
+        "pickaxe": {},
+        "sword": {},
+        "ax": {},
+        "fishing_hook": {}
+      },
+      "mancing": [
+        {
+          "nama": "ikan",
+          "icon": "🐟",
+          "rate": 50
+        }
+      ],
+      "berburu": [
+        {
+          "nama": "ayam",
+          "icon": "🐔",
+          "rate": 50
+        },
+        {
+          "nama": "sapi",
+          "icon": "🐄",
+          "rate": 30
+        },
+        {
+          "nama": "domba",
+          "icon": "🐑",
+          "rate": 15
+        },
+        {
+          "nama": "kambing",
+          "icon": "🐑",
+          "rate": 5
+        }
+      ],
+      "miningDrops": [
+        {
+          "name": "iron",
+          "label": "Besi",
+          "rate": 1,
+          "multiplier": 0.6
+        },
+        {
+          "name": "gold",
+          "label": "Emas",
+          "rate": 0.037,
+          "multiplier": 0.3
+        },
+        {
+          "name": "diamond",
+          "label": "Berlian",
+          "rate": 0.008,
+          "multiplier": null,
+          "maxRate": 0.08
+        }
+      ],
+      "hargaAwal": {
+        "energy": {
+          "beli": 100
+        },
+        "potion": {
+          "jual": 100,
+          "beli": 100
+        },
+        "kayu": {
+          "beli": 100,
+          "jual": 20000
+        },
+        "diamond": {
+          "jual": 100,
+          "beli": 100
+        },
+        "apel": {
+          "beli": 15000,
+          "jual": 12500
+        },
+        "ikan": {
+          "beli": 10000,
+          "jual": 8000
+        },
+        "ayam": {
+          "beli": 25000,
+          "jual": 20000
+        },
+        "crate_common": {
+          "beli": 50000,
+          "jual": 40000
+        },
+        "crate_uncommon": {
+          "beli": 150000,
+          "jual": 120000
+        },
+        "coal": {
+          "beli": 30000,
+          "jual": 24000
+        },
+        "iron": {
+          "beli": 80000,
+          "jual": 65000
+        },
+        "perak": {
+          "beli": 120000,
+          "jual": 100000
+        },
+        "gold": {
+          "beli": 200000,
+          "jual": 170000
+        },
+        "copper": {
+          "beli": 15000,
+          "jual": 10000
+        },
+        "timah": {
+          "beli": 20000,
+          "jual": 15000
+        },
+        "quartz": {
+          "beli": 35000,
+          "jual": 28000
+        },
+        "emerald": {
+          "beli": 300000,
+          "jual": 250000
+        },
+        "ruby": {
+          "beli": 400000,
+          "jual": 350000
+        },
+        "sapphire": {
+          "beli": 350000,
+          "jual": 300000
+        },
+        "amethyst": {
+          "beli": 250000,
+          "jual": 200000
+        },
+        "platinum": {
+          "beli": 600000,
+          "jual": 550000
+        },
+        "jade": {
+          "beli": 100000,
+          "jual": 80000
+        },
+        "obsidian": {
+          "beli": 250000,
+          "jual": 200000
+        },
+        "kepiting": {
+          "beli": 60000,
+          "jual": 48000
+        },
+        "gurita": {
+          "beli": 100000,
+          "jual": 85000
+        },
+        "lobster": {
+          "beli": 180000,
+          "jual": 150000
+        },
+        "udang": {
+          "beli": 80000,
+          "jual": 65000
+        },
+        "sapi": {
+          "beli": 250000,
+          "jual": 210000
+        },
+        "domba": {
+          "beli": 200000,
+          "jual": 170000
+        },
+        "kambing": {
+          "beli": 220000,
+          "jual": 190000
+        },
+        "babi": {
+          "beli": 180000,
+          "jual": 150000
+        },
+        "crate_mythic": {
+          "beli": 600000,
+          "jual": 520000
+        },
+        "crate_epic": {
+          "beli": 1200000,
+          "jual": 1000000
+        },
+        "crate_legendary": {
+          "beli": 2500000,
+          "jual": 2200000
+        }
+      },
+      "target": 15,
+      "baseNaik": 0.25,
+      "baseTurun": 0.23,
+      "bonusUser": 0.05,
+      "userFactor": true,
+      "inflasi": true,
+      "daftar": true,
+      "miningItems": {
+        "batu": {
+          "label": "Batu",
+          "rate": 100
+        },
+        "coal": {
+          "label": "Coal",
+          "rate": 20
+        },
+        "iron": {
+          "label": "Besi",
+          "rate": 10
+        },
+        "copper": {
+          "label": "Tembaga",
+          "rate": 8
+        },
+        "perak": {
+          "label": "Perak",
+          "rate": 5
+        },
+        "timah": {
+          "label": "Timah",
+          "rate": 4
+        },
+        "quartz": {
+          "label": "Quartz",
+          "rate": 3
+        },
+        "gold": {
+          "label": "Emas",
+          "rate": 2
+        },
+        "jade": {
+          "label": "Jade",
+          "rate": 0.2
+        },
+        "emerald": {
+          "label": "Emerald",
+          "rate": 0.2
+        },
+        "ruby": {
+          "label": "Ruby",
+          "rate": 0.15
+        },
+        "sapphire": {
+          "label": "Sapphire",
+          "rate": 0.1
+        },
+        "amethyst": {
+          "label": "Amethyst",
+          "rate": 0.1
+        },
+        "obsidian": {
+          "label": "Obsidian",
+          "rate": 0.05
+        },
+        "platinum": {
+          "label": "Platinum",
+          "rate": 0.05
+        },
+        "diamond": {
+          "label": "Diamond",
+          "rate": 0.01
+        }
+      }
+    },
+    "replyAi": false,
+    "register": false
+  },
+  "api": {
+    "xterm": {
+      "key": "Bell409",
+      "url": "https://api.termai.cc"
+    }
+  }
+}

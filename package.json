@@ -1,0 +1,47 @@
+{
+  "name": "zephyr",
+  "version": "1.0.0",
+  "description": "Simple WhatsApp Bot Using Baileys Library.",
+  "license": "MIT",
+  "author": "RullzFuqi",
+  "homepage": "https://github.com/RullzFuqi/Zephyr-Wabot#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RullzFuqi/Zephyr-Wabot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RullzFuqi/Zephyr-Wabot/issues"
+  },
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "fmt": "prettier --write",
+    "fmt:check": "prettier --check"
+  },
+  "imports": {
+    "#lib/*": "./lib/*",
+    "#src/*": "./src/*",
+    "#core/*": "./core/*"
+  },
+  "keywords": [
+    "2025",
+    "RullzFuqi",
+    "Zephyr",
+    "WhatsApp-Bot",
+    "Zephyr",
+    "Socket"
+  ],
+  "dependencies": {
+    "baileys": "7.0.0-rc.3",
+    "chalk": "^5.6.2",
+    "chokidar": "^4.0.3",
+    "fluent-ffmpeg": "^2.1.3",
+    "moment-timezone": "^0.6.0",
+    "node-webpmux": "^3.2.1",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
+}
